@@ -1,0 +1,46 @@
+<!--orderform starts here-->
+<h1>Tilausvahvistuslomake</h1>
+<div class="form">
+  <!--Information about the tyres-->
+  <h3>Tuotteen tiedot</h3><br>
+  <form>
+    <!--select label of tyres-->
+    <div>
+    <label for="tyres">Rengasmerkki:</label><br>
+    <select id="tyres" name="rengasmerkki">
+      <option value="nokia">Nokian Renkaat</option>
+      <option value="continental">Continental</option>
+      <option value="viking">Viking</option>
+      <option value="matador">Matador</option>
+    </select>
+    <br>
+    </div>
+    <!--select size of tyres-->
+    <div>
+    <label for="tyres">Koko:</label><br>
+    <select id="tyres" name="size">
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+    </select>
+    <br>
+    </div>  
+    <!--select amout ordered-->
+    <label for="tyres">Tilattu määrä:</label><br>
+    <select id="tyres" name="amount">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br>
+    <!--update the price based on the selection-->
+   <label for="price">Hinta:</label>
+    <br>
+   <input type="text" id="fname" name="price"><br>
+    <label for="name">Nimi:</label><br>
+  <input type="text" id="name" name="name" value=""><br><br>
+  <input type="submit" value="Submit">
+  </form>
+</div>
