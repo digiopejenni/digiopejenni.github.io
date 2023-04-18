@@ -1,0 +1,19 @@
+body{
+    height: 100hv;
+    background: linear-gradient(
+        0deg,
+        rgba(34,193,195,1) 0%,
+        rgba(253,253,25,1) 100%
+
+    );
+    background-color: beige;
+    text-align: center;
+    overflow: hidden; /*vierittimetpiiloon*/
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#gameArea{
+    border:10px solid plum;
+}
