@@ -1,13 +1,15 @@
+/*taustaväri on sininen */
 body {
-  background-color: red;
+  background-color: blue;
 }
-
+/*koska tausta on sininen, otsikot on valkoisia */
 h1 {
   color: white;
   text-align: center;
 }
-
+/*fonttikoko kappaleelle on tosi iso, jotta huomataan css:n vaikutus */
 p {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 40px;
 }
+/*tähän loppuu tyylimäärittelyt, jos haluat lisätä jotain, lisää tämän kommentin alle. kommentti ei näy selaimessa */
