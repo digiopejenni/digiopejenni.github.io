@@ -1,0 +1,20 @@
+.header-main{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+.header-main div{
+    height: 30px;
+}
+
+.header-main .div-1{
+    width: 100px;
+    background-color: #B381DE;
+}
+.header-main .div-2{
+    width: 100px;
+    background-color: #2760db;
+}.header-main .div-3{
+    width: 100px;
+    background-color: #d6d84a;
+}
