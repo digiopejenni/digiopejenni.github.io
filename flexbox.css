@@ -2,19 +2,34 @@
     width: 100%;
     height: 60px;
     background-color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: normal;
+
 }
 .header-main div{
     height: 30px;
 }
 
 .header-main .div-1{
-    width: 100px;
+    width: 400px;
     background-color: #B381DE;
+    order: 1;
+    flex-basis: 100px;
 }
 .header-main .div-2{
-    width: 100px;
+    width: 400px;
     background-color: #2760db;
-}.header-main .div-3{
-    width: 100px;
+    order:2;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.header-main .div-3{
+    width: 400px;
     background-color: #d6d84a;
+    order:3;
+    flex-basis: 100px;
+    flex-grow: 2;
 }
