@@ -1,6 +1,7 @@
-var sayMyName = function(name) {
-    alert('My name is :'+name)
+var doCoolStuff = function (){
+    document.getElementById('cool').className = 'cool red';
 }
+
 var car = {
 	make: 'VW',
 	type: 'Polo',
