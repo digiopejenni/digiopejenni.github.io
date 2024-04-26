@@ -1,0 +1,43 @@
+.left{
+    background-color: aquamarine;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+.right{
+    background-color: rgb(217, 176, 225);
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top:0;
+    right:0;
+}
+.rocket{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    width: 40px;
+    height: 200px;
+    background-color: rgb(85, 170, 190);
+    transition: bottom 10000ms;
+}
+.rocket.flying{
+    bottom:1000px;
+
+}
+.ground{
+    background-color: olive;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+a{
+
+}
+a.button{
+
+}
