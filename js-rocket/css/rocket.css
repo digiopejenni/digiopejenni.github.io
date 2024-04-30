@@ -23,7 +23,7 @@
     background-color: rgb(85, 170, 190);
     transition: bottom 10000ms;
 }
-.rocket.flying{
+body.body-state3 .rocket{
     bottom:1000px;
 
 }
