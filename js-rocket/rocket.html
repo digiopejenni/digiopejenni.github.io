@@ -12,26 +12,26 @@
     <!--Vasemman puoleinen statusikkuna-->
     <div class="left">
         <!--taso 1 Laukaise-->
-        <div class="state1">
+        <div class="interface state1">
             <h1>JS Rocket Launch!</h1>
             <a href="#" class="button" onclick="changeState(2);">Launch!</a>
         </div>
         <!--taso 2 Keskeytä-->
-        <div class="state2">
+        <div class="interface state2">
             <h1 id="countdown">10</h1>
-            <a href="#" class="button" onclick="changeState(1);">Abort!</a>
+            <a href="#" onclick="changeState(1);">Abort!</a>
         </div>
         <!--taso 3 Lähetä-->
-        <div class="state3">
+        <div class="interface state3">
             <h1>Lift Off!</h1>
         </div>
         <!--taso 4 Tee uudestaan-->
-        <div class="state4">
+        <div class="interface state4">
             <h1>Well done!</h1>
             <a href="#" class="button" onclick="changeState(1);">Do it again!</a>
         </div>
         <!--taso 5 Tee uudestaan-->
-        <div class="state4">
+        <div class="interface state5">
             <h1>Oh no!</h1>
             <a href="#" class="button" onclick="changeState(1);">Try again!</a>
         </div>
@@ -42,6 +42,8 @@
     <div class="right">
         <div class="ground"></div>
         <div class="rocket">
+        <div class="nervous" id="nervous"></div>
+        <div class="cant-wait" id="cant-wait"></div>
 
         </div>
     </div>
